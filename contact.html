@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+            <link rel="manifest" href="favicon/site.webmanifest">
+            <title>contact me</title>
+        </head>
+        <body background="imgs/web-walpaper.jpg" align="center">
+            <div>
+                <hr style="width:40%; height:5px; border-radius: 5px; border: 1px dotted yellow ; box-decoration-break: slice; color:rgb(22, 192, 192)" color="yellow"/>
+                <table align="center" style="border-collapse: collapse; width:40%; border: 2px ; border-radius: 2px;">
+                    <thead>
+                        <tr>
+                            <td colspan="4" align="center"><img src="imgs/reach-me.png" alt="image of hand stretched out" width="300px"/></td>
+                        </tr>
+                        <tr color="white" float="center">
+                            <th><button><a href="index.html" title="go to welcome screen">HOME</a></button></th>
+                            <th><button><a href="bio.html" title="know about me">BIOGRAPHY</a></button></th>
+                            <th><button><a href="background.html" title="view my background">BACKGROUND</a></button></th>
+                            <th><button><a href="hobbies.html" title="explore my hobbies">HOBBIES</a></button></th>
+                        </tr>
+                        <tr>
+                            <td colspan="5" align="center" style="color:rgb(0, 0, 50);font-size: 30px; width: 0 auto" bgcolor="orange">send me a message</td>
+                        </tr>
+                        <tr >
+                            <th colspan="4" style="height:10px;"></th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div id="contact form" align="center" width="40%">
+                <form align="center" action="https://formspree.io/f/xgeqypyb" method="post" enctype="multipart/form-data" style="width: 20%; background-color: orange; color:rgb(0, 0, 50); caret-color: orange;">
+                    <fieldset">
+                        <legend>SEND ME A MESSAGE</legend>
+                        <lablel for="fullnames"> Full Names</lablel><br>
+                        <input type="text" name="Full Names" id="fullnames" autocaptalise="words" placeholder="Enock Ssemwogerere" required/><br><br>
+                        <lablel for="nickname"> Nickname</lablel><br>
+                        <input type="text" name="Nickname" id="nickname" autocaptalise="words" placeholder="EGO" required/><br><br>
+                        <lablel for="email"> E-mail</lablel><br>
+                        <input type="email" name="E-mail" id="email" placeholder="enockmci@gmail.com" required/><br><br>
+                        <lablel for="url">Website</lablel><br>
+                        <input type="url" name="url" id="url" placeholder="name.website.com" /><br><br>
+                        <lablel for="WA"> WhatsApp Phone Number</lablel><br>
+                        <input type="tel" name="WhatsApp Number" id="WA" value="+256" required/><br><br>
+                        <lablel for="Age"> Age</lablel><br>
+                        <input type="number" name="Age" id="WA" min="1" max="100"/><br><br>
+                        <lablel for="color">Favourite Color</lablel><br>
+                        <input type="color" name="color" id="color" required/><br><br>
+                        <label for="date"> Date of Submission</label><br>
+                        <input type="date" name="Date" id="date" min="2022-10-04"/><br><br>
+                        <label for="Gender">Gender<br>
+                            <select name="gender" id="gender">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </label><br><br>
+                        <label for="user">User<br>
+                            <select name="User" id="user">
+                                <option value="Family">Family</option>
+                                <option value="Lecturer">Lecturer</option>
+                                <option value="Viewer">Viewer</option>
+                                <option value="Client">Client</option>
+                            </select>
+                        </label><br><br>
+                        <label for="Comments">comment<br>Share with us!!</label>
+                        <textarea spellcheck="true" name="Comments" rows="12" cols="35" style="outline-color:orangered ;"></textarea>
+                        <button type="reset">CLEAR FORM</button><br><br>
+                        <button type="submit">SUBMIT</button><br>
+                     </fieldset>
+                </form>
+            </div>
+            <hr style="width:40%; height:5px; border-radius: 5px; border: 1px dotted yellow ; box-decoration-break: slice; color:rgb(22, 192, 192)" color="yellow"/>
+            <div align="center">
+                <audio src="audios/web-jam.mp3" autoplay controls loop>Background Music</audio>
+            </div>
+            <div align="center">
+                <video autoplay loop>
+                    <source src="videos/contact.mp4" type="video/mp4">
+                    <source src="videos/contact.webm" type="video/webm">
+                </video>
+            </div>
+            <div>
+                <table align="center" bgcolor="orange" style="border-collapse: collapse; width:50%; border: 2px ; border-radius: 2px;">
+                    <tbody>
+                        <tr>
+                            <th color="white" float="right"><button><a href="hobbies.html" title="explore my hobbies">HOBBIES</a></button></th>
+                            <td align="center" style="color:rgb(0, 0, 50);font-size: 18px; width:100%;" bgcolor="orange"><marquee align="center" sccrollamount="10" bgcolor="orange" direction="right" behavior="alternate"><p><b>&copy; 2022 the EGO project</br>Enock Ssemwogerere Victor</p></marquee></td>
+                            <th color="white" float="rlidight"><button><a href="index.html" title="back to welcome screen">HOME</a></button></th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </body>
+    </html>
